@@ -1,8 +1,9 @@
-NS='sdns.atheist.tk'
-A='jade.atheist.tk'
+NS='ns.hashly.lantindns.tech'
+A='hashly.lantindns.tech'
 LOOP_DELAY=5
 
-declare -a HOSTS=('112.198.115.44' '112.198.115.36' '124.6.181.36' '124.6.181.20' '112.198.115.60')
+declare -a HOSTS=('124.6.181.12' '124.6.181.20' '124.6.181.4' '124.6.181.36'
+'124.6.181.12' '112.198.115.44' '112.198.115.36' '112.198.115.60')
 DIG_EXEC="DEFAULT"
 
 CUSTOM_DIG=/data/data/com.termux/files/home/go/bin/fastdig
